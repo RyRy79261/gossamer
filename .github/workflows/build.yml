@@ -78,5 +78,5 @@ jobs:
           push: true
           tags: chainsafe/gossamer:latest
       -
-        name: Image digest
+        name: Image digest 
         run: echo ${{ steps.docker_build.outputs.digest }}
